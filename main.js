@@ -38,14 +38,14 @@ const singleFruit = fruits.map(fruit => fruit.slice(0, -1).toUpperCase());
 
 // FILTER
 // It is used to return Array with things filtered out. it often used in state management like redux or delete something from API
-// const people = [
-//   { id: 1, name: 'Karen' },
-//   { id: 2, name: 'Bob' },
-//   { id: 3, name: 'Sharon' }
-// ];
+const people = [
+  { id: 1, name: 'Karen' },
+  { id: 2, name: 'Bob' },
+  { id: 3, name: 'Sharon' }
+];
 
-// const people2 = people.filter(person => person.id !== 2);
-// console.log(people2)
+const people2 = people.filter(person => person.id !== 2);
+console.log(people2)
 
 
 // ==================================================
