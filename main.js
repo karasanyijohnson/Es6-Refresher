@@ -1,23 +1,24 @@
-// CONST & LET
-const name = 'John';
-let test;
+// // CONST & LET
+// const name = 'John';
+// let test;
 
-const person = {
-  name: 'John',
-  age: 33
-};
+// const person = {
+//   name: 'John',
+//   age: 33
+// };
 
-person.name = 'Jack';
-//console.log(name)
-const nums = [1, 2, 3, 4];
-nums.push(5);
-//console.log(nums)
+// person.name = 'Jack';
+// //console.log(name)
+// const nums = [1, 2, 3, 4];
+// nums.push(5);
+// //console.log(nums)
 
 //=================================================
 // ARROW FUNCTIONS
 // function sayHello() {
 //   console.log('Hello');
 // }
+
 // const sayHello=(name)=>{
 //   console.log(`Hello ${name}`)
 // }
@@ -27,24 +28,28 @@ nums.push(5);
 
 //==================================================
  const fruits = ['Apples', 'Oranges', 'Grapes'];
-
+// for (i=0;i<fruits.length;i++){
+//   let fruit= fruits[i]
+//   console.log(fruit)
+// }
 // FOREACH
- //fruits.forEach((fruit, index) => console.log(fruit));
+//  fruits.forEach((fruit, index) => console.log(fruit));
 // MAP  
 // Works in similar way with the FOREACH except it returns an ARRAY
-const singleFruit = fruits.map(fruit => fruit.slice(0, -1).toUpperCase());
-//console.log(singleFruit)
+// const singleFruit = fruits.map(fruit => fruit.slice(0, -1).toUpperCase());
+// const singleFruit = fruits.map(fruit => fruit.toUpperCase());
+// console.log(singleFruit)
 
 // FILTER
 // It is used to return Array with things filtered out. it often used in state management like redux or delete something from API
-const people = [
-  { id: 1, name: 'Karen' },
-  { id: 2, name: 'Bob' },
-  { id: 3, name: 'Sharon' }
-];
+// const people = [
+//   { id: 1, name: 'Karen' },
+//   { id: 2, name: 'Bob' },
+//   { id: 3, name: 'Sharon' }
+// ];
 
-const people2 = people.filter(person => person.id !== 2);
-//console.log(people2)
+// const people2 = people.filter(person => person.id !== 2);
+// console.log(people2)
 
 
 // ==================================================
