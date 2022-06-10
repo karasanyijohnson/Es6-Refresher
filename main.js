@@ -142,3 +142,4 @@ class Person {
 // // // file 2 (file2.js)
 // import { name, nums } from './file1';
 // import Person from './file1';
+
