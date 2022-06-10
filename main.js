@@ -55,15 +55,16 @@
 // ==================================================
 // SPREAD
 // can mostly used in state management
- const arr = [1, 2, 3];
-// const arr2 = [...arr, 4];
+const arr = [1, 2, 3];
+const arr2 = [...arr, 4];
+// console.log(arr2)
 // // we can use combination of spread operator with Filter
 const arr3 = [...arr.filter(num => num !== 2),5];
 //console.log(arr3)
-// const person1 = {
-//   name: 'Johnson',
-//   age: 36
-// };
+const person1 = {
+  name: 'Johnson',
+  age: 36
+};
 
 // const person2 = {
 //   ...person1,
@@ -75,19 +76,19 @@ const arr3 = [...arr.filter(num => num !== 2),5];
 // DESTRUCTURING
 // Putting values out of object or array
 
-const profile = {
-  name: 'John Doe',
-  address: {
-    street: '40 Main st',
-    city: 'Boston'
-  },
-  hobbies: ['movies', 'music']
-};
+// const profile = {
+//   name: 'John Doe',
+//   address: {
+//     street: '40 Main st',
+//     city: 'Boston'
+//   },
+//   hobbies: ['movies', 'music']
+// };
 
-// const { name, address, hobbies } = profile;
-//console.log(name,address,hobbies)
-const { street, city } = profile.address;
-//console.log(street,city)
+// // const { name, address, hobbies } = profile;
+// // console.log(name,address,hobbies)
+// const { street, city } = profile.address;
+// console.log(street,city)
 
 //=================================================
 // CLASSES
@@ -111,8 +112,8 @@ class Person {
   };
 }
 
-const person1 = new Person('John', 33);
-const person2 = new Person('Sara', 28);
+// const person1 = new Person('John', 33);
+// const person2 = new Person('Sara', 28);
 //console.log(person1.greet())
 
 // //SUBCLASSES;
