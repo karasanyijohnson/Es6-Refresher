@@ -1,17 +1,17 @@
-// // CONST & LET
-// let name = 'John';
-// let test;
+// CONST & LET
+const name = 'John';
+let test;
 
-// const person = {
-//   name: 'John',
-//   age: 33
-// };
+const person = {
+  name: 'John',
+  age: 33
+};
 
-// person.name = 'Jack';
-// //console.log(name)
-// const nums = [1, 2, 3, 4];
-// nums.push(5);
-// //console.log(nums)
+person.name = 'Jack';
+//console.log(name)
+const nums = [1, 2, 3, 4];
+nums.push(5);
+//console.log(nums)
 
 //=================================================
 // ARROW FUNCTIONS
@@ -79,7 +79,7 @@ const profile = {
   hobbies: ['movies', 'music']
 };
 
-const { name, address, hobbies } = profile;
+// const { name, address, hobbies } = profile;
 //console.log(name,address,hobbies)
 const { street, city } = profile.address;
 //console.log(street,city)
