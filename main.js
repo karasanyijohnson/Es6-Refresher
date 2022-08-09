@@ -63,7 +63,7 @@ const name ="John"
 // can mostly used in state management
 const arr = [1, 2, 3];
 const arr2 = [...arr, 4];
-// console.log(arr2)
+console.log(arr2)
 // // we can use combination of spread operator with Filter
 const arr3 = [...arr.filter(num => num !== 2),5];
 //console.log(arr3)
