@@ -1,4 +1,4 @@
-// // CONST & LET
+// CONST & LET
 // const name = 'John';
 // let test;
 
@@ -8,10 +8,10 @@
 // };
 
 // person.name = 'Jack';
-// //console.log(name)
-// const nums = [1, 2, 3, 4];
-// nums.push(5);
-// //console.log(nums)
+// console.log(name)
+const nums = [1, 2, 3, 4];
+nums.push(5);
+console.log(nums)
 
 //=================================================
 // ARROW FUNCTIONS
