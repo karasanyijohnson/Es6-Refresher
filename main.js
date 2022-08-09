@@ -119,24 +119,24 @@ class Person {
 
 }
 
-const person1 = new Person('John', 33);
-const person2 = new Person('Sara', 28);
-console.log(person1.greet())
+// const person1 = new Person('John', 33);
+// const person2 = new Person('Sara', 28);
+// console.log(person1.greet())
 
 // //SUBCLASSES;
-// class Customer extends Person {
-//   constructor(name, age, balance) {
-//     super(name, age);
-//     this.balance = balance;
-//   }
+class Customer extends Person {
+  constructor(name, age, balance) {
+    super(name, age);
+    this.balance = balance;
+  }
 
-//   info() {
-//     return `${this.name} owes $${this.balance}.00`;
-//   }
-// }
+  info() {
+    return `${this.name} owes $${this.balance}.00`;
+  }
+}
 
-// const customer1 = new Customer('Kevin', 32, 300);
-// console.log(customer1.info())
+const customer1 = new Customer('Kevin', 32, 300);
+console.log(customer1.info())
 
 // MODULES
 
