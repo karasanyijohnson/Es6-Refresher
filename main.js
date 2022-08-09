@@ -63,10 +63,10 @@ const name ="John"
 // can mostly used in state management
 const arr = [1, 2, 3];
 const arr2 = [...arr, 4];
-console.log(arr2)
+// console.log(arr2)
 // // we can use combination of spread operator with Filter
-const arr3 = [...arr.filter(num => num !== 2),5];
-//console.log(arr3)
+const arr3 = [...arr.filter(num => num !== 1),5];
+// console.log(arr3)
 // const person1 = {
 //   name: 'Johnson',
 //   age: 36
@@ -76,23 +76,23 @@ const arr3 = [...arr.filter(num => num !== 2),5];
 //   ...person1,
 //   email: 'johnson@gmail.com'
 // };
-//console.log(person2)
+// console.log(person2)
 
 //=====================================================
 // DESTRUCTURING
 // Putting values out of object or array
 
-// const profile = {
-//   name: 'John Doe',
-//   address: {
-//     street: '40 Main st',
-//     city: 'Boston'
-//   },
-//   hobbies: ['movies', 'music']
-// };
+const profile = {
+  names: 'John Doe',
+  address: {
+    street: '40 Main st',
+    city: 'Boston'
+  },
+  hobbies: ['movies', 'music']
+};
 
-// // const { name, address, hobbies } = profile;
-// // console.log(name,address,hobbies)
+const { names, address, hobbies } = profile;
+console.log(names,address,hobbies)
 // const { street, city } = profile.address;
 // console.log(street,city)
 
