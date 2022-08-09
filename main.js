@@ -92,36 +92,36 @@ const profile = {
 };
 
 const { names, address, hobbies } = profile;
-console.log(names,address,hobbies)
+// console.log(names,address,hobbies)
 // const { street, city } = profile.address;
 // console.log(street,city)
 
 //=================================================
 // CLASSES
-class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-};
-// const person1= new Person('Jonny',23);
-// const person2 = new Person('Sarah', 33);
-// console.log(person2, person1)
-
 // class Person {
 //   constructor(name, age) {
 //     this.name = name;
 //     this.age = age;
-//   };
-//   greet() {
-//     return `Hello, my name is ${this.name} and I am ${this.age}`;
-//   };
+//   }
+// };
+// const person1= new Person('Jonny',23);
+// const person2 = new Person('Sarah', 33);
+// console.log(person2, person1)
 
-// }
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  };
+  greet() {
+    return `Hello, my name is ${this.name} and I am ${this.age}`;
+  };
 
-// const person1 = new Person('John', 33);
-// const person2 = new Person('Sara', 28);
-// console.log(person1.greet())
+}
+
+const person1 = new Person('John', 33);
+const person2 = new Person('Sara', 28);
+console.log(person1.greet())
 
 // //SUBCLASSES;
 // class Customer extends Person {
