@@ -1,5 +1,9 @@
 // CONST & LET
-// const name = 'John';
+const name ="John"
+//  var name = 'John';
+//  name ="yeves"
+//  console.log(name)
+//let can be reassigned and take new value
 // let test;
 
 // const person = {
@@ -7,17 +11,19 @@
 //   age: 33
 // };
 
+// const Once used, the variable can’t be reassigned
 // person.name = 'Jack';
 // console.log(name)
-const nums = [1, 2, 3, 4];
-nums.push(5);
-console.log(nums)
+// const nums = [1, 2, 3, 4];
+// nums.push(5);
+// console.log(nums)
 
 //=================================================
 // ARROW FUNCTIONS
 // function sayHello() {
 //   console.log('Hello');
 // }
+// sayHello()
 
 // const sayHello=(name)=>{
 //   console.log(`Hello ${name}`)
@@ -27,13 +33,13 @@ console.log(nums)
 
 
 //==================================================
- const fruits = ['Apples', 'Oranges', 'Grapes'];
+// const fruits = ['Apples', 'Oranges', 'Grapes'];
 // for (i=0;i<fruits.length;i++){
 //   let fruit= fruits[i]
 //   console.log(fruit)
 // }
 // FOREACH
-//  fruits.forEach((fruit, index) => console.log(fruit));
+// fruits.forEach((fruit, index) => console.log(fruit));
 // MAP  
 // Works in similar way with the FOREACH except it returns an ARRAY
 // const singleFruit = fruits.map(fruit => fruit.slice(0, -1).toUpperCase());
