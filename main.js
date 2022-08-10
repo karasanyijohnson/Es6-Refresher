@@ -138,7 +138,7 @@ class Customer extends Person {
 const customer1 = new Customer('Kevin', 32, 300);
 console.log(customer1.info())
 
-// MODULES
+// MODULES ES6
 
 // file 1 (file1.js)
 // export const name = 'Jeff';
